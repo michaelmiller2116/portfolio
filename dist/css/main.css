@@ -1,3 +1,17 @@
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  transition: all 1s ease-out; }
+  .menu-btn .btn-line {
+    width: 28px;
+    height: 3px;
+    margin-bottom: 5px;
+    background: #fff;
+    transition: all 1s ease-out; }
+
 * {
   box-sizing: border-box; }
 
@@ -9,7 +23,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/imagename.jpg);
+    background: url(../img/black-and-white-design-high-angle-shot-929282.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {

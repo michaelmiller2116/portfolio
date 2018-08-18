@@ -1,7 +1,7 @@
 $primary-color: #444;
 $secondary-color: #eece1a;
 $show-home-image: true;
-$home-image: url(../img/imagename.jpg);
+$home-image: url(../img/black-and-white-design-high-angle-shot-929282.jpg);
 $background-opacity: 0.9;
 
 @mixin easeOut {
@@ -9,7 +9,7 @@ $background-opacity: 0.9;
 }
 
 @mixin background {
-  @if ($show-home-image) {
+  @if $show-home-image {
     &#bg-img {
       background: $home-image;
       background-attachment: fixed;
