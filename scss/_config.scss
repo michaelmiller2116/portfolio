@@ -5,7 +5,7 @@ $home-image: url(../img/black-and-white-design-high-angle-shot-929282.jpg);
 $background-opacity: 0.9;
 
 @mixin easeOut {
-  transition: all 1s ease-out;
+  transition: all .8s ease-out;
 }
 
 @mixin background {
