@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My portfolio site",
   "main": "index.js",
-  "homepage": "https://michaelmiller2116.github.io/portfolio",
+  "homepage": "https://michaelmiller2116.github.io/portfolio/index.html",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
