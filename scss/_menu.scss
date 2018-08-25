@@ -86,9 +86,11 @@
     }
 
     .portrait {
+      opacity: 1.0;
       width: 250px;
       height: 250px;
-      background: url('../img/portrait.jpg');
+      background: url('../img/profile_image.jpg');
+      background-position: center;
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }

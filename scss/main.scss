@@ -79,7 +79,7 @@ main {
   'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr);
 
-  bio-image {
+  .bio-image {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
@@ -110,7 +110,7 @@ main {
   }
 }
 
-//Work/Projects
+// Work/Projects
 .projects {
   display: grid;
   grid-gap: 0.7rem;
@@ -118,6 +118,8 @@ main {
 
   img {
     width: 100%;
+    min-width: 225px;
+    height: 300px;
     border: 3px #fff solid;
 
     &:hover {
