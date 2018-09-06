@@ -128,13 +128,14 @@ h1, h2, h3 {
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
     padding-bottom: 25px;
     opacity: 0;
-    animation: small 100s;
+    animation: small 1000s;
     animation-delay: 3.2s; }
 
 @keyframes text {
   0% {
     color: #444;
-    margin-bottom: -75px; }
+    margin-bottom: -75px;
+    opacity: 0; }
   30% {
     margin-bottom: -75px; }
   80% {
@@ -143,7 +144,7 @@ h1, h2, h3 {
 @keyframes small {
   0% {
     opacity: 0; }
-  15% {
+  .5% {
     opacity: 1; }
   100% {
     opacity: 1; } }
