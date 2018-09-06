@@ -34,24 +34,34 @@ h1, h2, h3 {
   }
 
   &.sm-heading {
-    @include easeOut;
     padding-bottom: 25px;
-    opacity: .25;
+    opacity: 0;
+    animation: small 100s ;
+    animation-delay: 3.2s;
   }
 
   @keyframes text {
     0%{
-      opacity: 1;
       color: #444;
       margin-bottom: -75px;
     }
     30%{
-      opacity: .5;
       margin-bottom: -75px;
     }
     80%{
-      opacity: 1;
       margin-bottom: -75px;
+    }
+  }
+
+  @keyframes small {
+    0% {
+      opacity: 0;
+    }
+    15% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
     }
   }
 }
