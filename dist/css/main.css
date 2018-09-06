@@ -102,7 +102,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: #444;
+    background-image: url(../img/aside.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -124,19 +124,22 @@ h1, h2, h3 {
     font-size: 6rem;
     animation: text 4s 1;
     position: relative;
-    margin-bottom: 20px;
-    background: #444; }
+    margin-bottom: 20px; }
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
     transition: all .8s ease-out;
-    padding-bottom: 25px; }
+    padding-bottom: 25px;
+    opacity: .25; }
 
 @keyframes text {
   0% {
+    opacity: 1;
     color: #444;
     margin-bottom: -75px; }
   30% {
+    opacity: .5;
     margin-bottom: -75px; }
   80% {
+    opacity: 1;
     margin-bottom: -75px; } }
 
 a {

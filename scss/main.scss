@@ -30,24 +30,27 @@ h1, h2, h3 {
     animation: text 4s 1;
     position: relative;
     margin-bottom: 20px;
-    background: #444;
+    // background: #444;
   }
 
   &.sm-heading {
-    // margin-bottom: 2rem;
     @include easeOut;
     padding-bottom: 25px;
+    opacity: .25;
   }
 
   @keyframes text {
     0%{
+      opacity: 1;
       color: #444;
       margin-bottom: -75px;
     }
     30%{
+      opacity: .5;
       margin-bottom: -75px;
     }
     80%{
+      opacity: 1;
       margin-bottom: -75px;
     }
   }
